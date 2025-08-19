@@ -1,0 +1,86 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../media/img/Homepage-Card-Model-X-Desktop-US.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphism effect */
+.glass-effect {
+  background: rgba(15, 15, 15, 0.486);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Style for form buttons */
+.btn {
+  margin-top: 5px;
+  background-color: #ffd904;
+  border: none;
+  transition: background-color 0.3s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.507);
+
+}
+
+.btn:hover {
+  background-color: #535352e8;
+}
+
+/* Responsive text and logo */
+h2 {
+  font-weight: 600;
+}
+
+img.img-fluid {
+  max-height: 60px;
+}
+
+/* Text links */
+a {
+  color: #aad8ff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.form-control{
+  background-color: rgba(255, 255, 255, 0.123); /* semi-transparent by default */
+  color: #0f0f0f;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  height: 35px;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.089); /* fully transparent while typing */
+  outline: none;
+  color: #ffffffe0; /* adjust if needed based on background */
+}
+
+.form-control::placeholder{
+  color: #ffffff4d;
+  font-size: 10px;
+}
+
+.login-box{
+  height: 600px;
+  width: 450px;
+}
+
+label{
+  font-size: 10px;
+}
+
+.form-control:hover{
+ border: 1px solid rgb(255, 255, 0);
+ box-shadow: 0px 2px 2px rgba(255, 255, 0, 0.425);
+}

@@ -1,0 +1,54 @@
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .jesla-logo {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #e60000;
+      text-shadow: 0 0 10px #e60000;
+    }
+
+    .form-control::placeholder{
+      color: #fff;
+    }
+
+    .form-control,
+    .form-control:focus {
+      background-color: transparent;
+      border: 1px solid #e60000;
+      color: #fff;
+      box-shadow: none;
+    }
+
+    .form-label {
+      color: #e60000;
+    }
+
+    .btn-jesla {
+      background-color: #e60000;
+      border: none;
+    }
+
+    .btn-jesla:hover {
+      background-color: #b30000;
+    }
+
+    .faq-box {
+      background-color: #111;
+      border-left: 4px solid #e60000;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      background: #111;
+      color: #aaa;
+      text-align: center;
+    }

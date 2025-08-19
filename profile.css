@@ -1,0 +1,66 @@
+    body {
+        background-image: url(../media/img/tesla-model-s.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .jesla-logo {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #fafafa;
+      text-shadow: 0 0 20px #050505;
+    }
+
+    .profile-card {
+    background: rgba(19, 10, 10, 0.267);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.486);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(17, 17, 17, 0.801);
+    }
+
+    .profile-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid #fffffff5;
+      object-fit: cover;
+    }
+
+    .btn-jesla {
+      background-color: #ffffff;
+      border: none;
+      color: black;
+      margin: 10px 5px;
+      width: 80px;
+    }
+
+    .btn-jesla:hover {
+      background-color: #444444;
+      color: rgb(255, 255, 255);
+    }
+
+footer{
+  background: rgba(19, 10, 10, 0.267);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.486);
+    transition: all 0.3s ease;
+}
+
+    @media(max-width:800px){
+       body {
+             background: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 74, 83));
+
+    }
+    }
